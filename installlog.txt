@@ -1,0 +1,22 @@
+false_silent = 0
+factorysetup.exe /Win8Register0
+other than mode3
+8
+Case0
+4
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\regasm.exe "C:\Program Files (x86)\Dell Backup and Recovery\Components\Shell\DBRShellExtension.dll" /codebase
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\regasm.exe "C:\Program Files (x86)\Dell Backup and Recovery\Components\Shell\DBROverlayNotBackuped.dll" /codebase
+execute: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\regasm.exe "C:\Program Files (x86)\Dell Backup and Recovery\Components\Shell\DBROverlayIcon.dll" /codebase
+after registry after ALW
+after registry before ALW
+end of update
+begin
+ret install = 0
+OS = x64
+OS = Win8
+Kinetic drv Install
+runmode=0dslcheck=19
+end welcome
+welcome
+pass style2
+pass style
